@@ -8,8 +8,8 @@ int main()
 	int num = 0;
 	for (int i = 0;i < m;i++){
 		cin >> x >> y;
-		for (int j = x-2;j < x+2;j++){
-			for (int k = y-2;k < y+2;k++){
+		for (int j = 1;j < n;j++){
+			for (int k = 1;k < n;k++){
 				if (sqrt((abs(x-j))*(abs(x-j))+(abs(y-k))*(abs(y-k))) <= r){
 					num++;
 				}
