@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/mac/Desktop/c++",
+            "program": "/Users/mac/Desktop/c++/build/Debug/outDebug"
+        },
+        {
+            "name": "Python Package: my_tk",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "my_tk"
+        }
+    ]
+}
